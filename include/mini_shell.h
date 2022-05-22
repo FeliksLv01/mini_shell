@@ -12,11 +12,10 @@
 #define MINI_SHELL_H
 
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
-#include "command/shell_command.h"
-#include "shell_io/shell_io.h"
+#include "shell_command.h"
+#include "shell_io.h"
 #include "shell_task.h"
 
 #ifdef __cplusplus
